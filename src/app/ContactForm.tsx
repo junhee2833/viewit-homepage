@@ -64,7 +64,7 @@ export default function ContactForm() {
       formData.append('content', form.content);
       formData.append('privacy', form.privacy.toString());
 
-      const response = await fetch('https://script.google.com/macros/s/AKfycbyZfxI6JFOBNSDq-jl370JWJTP1nK2JKxIQ5N1otj9vFeCrZfhp6m_kbN8aT6-wx05j8Q/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbyZfxI6JFOBNSDq-jl370JWJTP1nK2JKxIQ5N1otj9vFeCrZfhp6m_kbN8aT6-wx05j8Q/exec', {
         method: 'POST',
         body: formData,
         mode: 'no-cors' // CORS 우회
