@@ -71,7 +71,7 @@ export default function StatsSection() {
       
       {/* 메인 타이틀 */}
       <motion.h2 
-        className="text-xl sm:text-2xl md:text-3xl font-extrabold text-center mb-4 font-[Pretendard] leading-relaxed"
+        className="text-[8px] sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-center mb-4 font-[Pretendard] leading-relaxed px-4 sm:px-0"
         variants={itemVariants}
       >
         <span className="text-[#a084f7]">해외 진출을 위한 모든 리뷰 영상 및 광고 영상 고민을<br /></span>
@@ -87,14 +87,14 @@ export default function StatsSection() {
       </motion.div>
       
       {/* 하단 3가지 숫자 정보 */}
-      <div className="flex flex-col sm:flex-row justify-center gap-10 w-full max-w-4xl">
+      <div className="flex flex-row justify-center gap-4 sm:gap-10 w-full max-w-4xl">
         {/* 제작한 숏폼 영상 수 */}
         <motion.div 
           className="flex-1 flex flex-col items-center text-center"
           variants={statsVariants}
         >
-          <div className="text-5xl font-extrabold mb-2">250+</div>
-          <div className="text-base text-gray-300">제작한 숏폼 영상 수</div>
+          <div className="text-3xl sm:text-5xl font-extrabold mb-2">250+</div>
+          <div className="text-xs sm:text-base text-gray-300">제작한 숏폼 영상 수</div>
         </motion.div>
         
         {/* 외국인 체험단 풀 */}
@@ -102,8 +102,8 @@ export default function StatsSection() {
           className="flex-1 flex flex-col items-center text-center"
           variants={statsVariants}
         >
-          <div className="text-5xl font-extrabold mb-2">1000+</div>
-          <div className="text-base text-gray-300">보유한 외국인 체험단 풀</div>
+          <div className="text-3xl sm:text-5xl font-extrabold mb-2">1000+</div>
+          <div className="text-xs sm:text-base text-gray-300">보유한 외국인 체험단 풀</div>
         </motion.div>
         
         {/* 기업 재이용률 */}
@@ -111,8 +111,8 @@ export default function StatsSection() {
           className="flex-1 flex flex-col items-center text-center"
           variants={statsVariants}
         >
-          <div className="text-5xl font-extrabold mb-2">70%</div>
-          <div className="text-base text-gray-300">기업 재이용률</div>
+          <div className="text-3xl sm:text-5xl font-extrabold mb-2">70%</div>
+          <div className="text-xs sm:text-base text-gray-300">기업 재이용률</div>
         </motion.div>
       </div>
     </motion.section>

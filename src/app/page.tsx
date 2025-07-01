@@ -21,7 +21,7 @@ export default function Home() {
           loop
           muted
           playsInline
-          className="max-w-6xl w-11/12 h-auto block mx-auto"
+          className="max-w-6xl w-full sm:w-11/12 h-auto block mx-auto"
         />
       </div>
       
@@ -41,7 +41,7 @@ export default function Home() {
             loop
             muted
             playsInline
-            className="max-w-3xl w-4/5 h-auto block mx-auto"
+            className="max-w-3xl w-4/5 sm:w-4/5 w-full h-auto block mx-auto"
           />
         </div>
         {/* 포트폴리오 확인하기 버튼 */}
@@ -50,7 +50,7 @@ export default function Home() {
             href="https://drive.google.com/drive/folders/1fSuxQGuqg6w5o_5NQtTkmOsMDnk65lrk?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#a084f7] hover:bg-[#7c5fd4] text-white font-semibold rounded-full px-8 py-3 text-base shadow-lg transition-colors duration-200"
+            className="inline-block bg-[#a084f7] hover:bg-[#7c5fd4] text-white font-semibold rounded-full px-12 sm:px-12 px-12 py-3 text-sm shadow-lg transition-colors duration-200 w-auto text-center"
           >
             포트폴리오 확인하기
           </a>

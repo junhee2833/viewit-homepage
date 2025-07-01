@@ -47,7 +47,7 @@ export default function PromoSection() {
         ref={titleRef}
         initial={{ opacity: 0, y: 40 }}
         animate={titleControls}
-        className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-4"
+        className="text-[8px] sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-center mb-4 px-4 sm:px-0"
       >
         <span className="text-[#a084f7]">해외진출을 위해 필수적인 숏폼 마케팅</span>
       </motion.h2>
@@ -58,16 +58,18 @@ export default function PromoSection() {
         className="text-center text-lg mb-2"
       >
         틱톡, 릴스, 아마존 리뷰 영상까지.<br />
-        해외 마케팅을 하려면 외국인 리뷰 영상이 반드시 필요합니다.
+        <span className="block sm:inline">해외 마케팅을 하려면 외국인 리뷰 영상이</span>
+        <span className="block sm:inline">반드시 필요합니다.</span>
       </motion.div>
       {/* 중간 강조 문구 */}
       <motion.h3
         ref={emphRef}
         initial={{ opacity: 0, y: 40 }}
         animate={emphControls}
-        className="text-2xl sm:text-3xl font-extrabold text-center mt-16 mb-10"
+        className="text-[8px] sm:text-2xl md:text-3xl font-extrabold text-center mt-16 mb-10 px-4 sm:px-0"
       >
-        하지만, 어떻게 해야할지 막막하시죠?
+        <span className="block sm:inline">하지만, 어떻게 해야할지</span>
+        <span className="block sm:inline">막막하시죠?</span>
       </motion.h3>
       {/* 하단 3가지 문제점 */}
       <motion.div
