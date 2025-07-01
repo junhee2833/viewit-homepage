@@ -4,10 +4,9 @@ export default function StatsSection() {
   return (
     <section className="w-full bg-black text-white flex flex-col items-center py-16 px-4">
       {/* 로고 자리 */}
-      <div className="mb-8 flex justify-center">
-        <div className="w-[180px] h-[60px] flex items-center justify-center">
-          {/* 여기에 viewit 로고가 들어갈 예정 */}
-          <span className="text-4xl italic font-bold text-white opacity-40 select-none">viewit</span>
+      <div className="flex justify-center mb-4">
+        <div className="w-[240px] h-[60px] flex items-center justify-center">
+          <img src="/icon2.png" alt="Viewit 로고" className="h-12 w-full object-contain" />
         </div>
       </div>
       {/* 메인 타이틀 */}
