@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       
       {/* 영상과 이미지 사이 공백 */}
-      <div className="bg-black w-full h-16"></div>
+      <div className="bg-black w-full h-10"></div>
       
       {/* 프로모션 섹션 */}
       <PromoSection />
@@ -44,20 +44,53 @@ export default function Home() {
             className="max-w-3xl w-4/5 sm:w-4/5 w-full h-auto block mx-auto"
           />
         </div>
-        {/* 포트폴리오 확인하기 버튼 */}
-        <div className="w-full flex justify-center bg-black pb-8">
-          <a
-            href="https://drive.google.com/drive/folders/1fSuxQGuqg6w5o_5NQtTkmOsMDnk65lrk?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#a084f7] hover:bg-[#7c5fd4] text-white font-semibold rounded-full px-12 sm:px-12 px-12 py-3 text-sm shadow-lg transition-colors duration-200 w-auto text-center"
-          >
-            포트폴리오 확인하기
-          </a>
+        {/* sample5.mp4 아래 검정색 여백 */}
+        <div className="bg-black w-full py-6"></div>
+        {/* 사진고 섹션 타이틀 */}
+        <div className="w-full flex justify-center bg-black pt-10">
+          <h2 className="text-xs sm:text-2xl font-bold text-center text-white">VIEWIT에서 제공하는 가치</h2>
         </div>
-        <div className="bg-[#f6f6f6] w-full py-4">
-          <img src="/videos/sample6.png" alt="sample6" className="max-w-4xl w-11/12 h-auto block mx-auto" />
-        </div>
+        {/* 사진고 섹션 추가 */}
+        <section className="w-full flex flex-col sm:flex-row items-center justify-center gap-8 bg-black text-white py-6 px-6 sm:px-16">
+          {/* 왼쪽 그래프(빈 이미지) */}
+          <div className="flex-1 flex items-center justify-center min-h-[220px] sm:py-6 py-0 overflow-hidden h-[200px] sm:h-[390px]">
+            <img src="/graph.png" alt="그래프 자리" className="w-full max-w-2xl h-full object-contain rounded scale-125 sm:scale-100" />
+          </div>
+          {/* 오른쪽 텍스트 박스 */}
+          <div className="flex-1 flex flex-col gap-4 max-w-xl items-start sm:-translate-x-16">
+            <ul className="flex flex-col gap-4 w-full">
+              <li className="bg-[#232323] rounded-lg p-4 flex gap-3 items-start">
+                <span className="text-[#a084f7] text-2xl mt-1">✔️</span>
+                <div>
+                  <b>저렴한 비용으로 대량 제작</b><br />
+                  <span className="text-sm text-gray-200">- <span className='text-[#a084f7]'>외주 제작 대비 9배 저렴한 가격</span><br />- 체험단 풀을 바탕으로 빠르게 진행되는 대량 제작</span>
+                </div>
+              </li>
+              <li className="bg-[#232323] rounded-lg p-4 flex gap-3 items-start">
+                <span className="text-[#a084f7] text-2xl mt-1">✔️</span>
+                <div>
+                  <b>자유롭게 마케팅 2차 활용</b><br />
+                  <span className="text-sm text-gray-200">- 원본 영상 파일 제공<br />- <span className='text-[#a084f7]'>틱톡, 인스타, 유튜브, 아마존 영상 리뷰 등 모든 플랫폼에 자유롭게 이용 가능</span></span>
+                </div>
+              </li>
+              <li className="bg-[#232323] rounded-lg p-4 flex gap-3 items-start">
+                <span className="text-[#a084f7] text-2xl mt-1">✔️</span>
+                <div>
+                  <b>최신 해외 트렌드를 반영한 가이드라인 기획</b><br />
+                  <span className="text-sm text-gray-200">- 북미의 틱톡, 동남아시아의 Shopee 비디오 등 해외 각국의 트렌드 반영</span>
+                </div>
+              </li>
+              <li className="bg-[#232323] rounded-lg p-4 flex gap-3 items-start">
+                <span className="text-[#a084f7] text-2xl mt-1">✔️</span>
+                <div>
+                  <b>외국인 체험단 개인 틱톡 계정 업로드를 통한 홍보</b>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        {/* 입력폼 나오기 전 검정색 여백 */}
+        <div className="bg-black w-full py-6"></div>
       </div>
       
       {/* Contact us 폼 시작 */}
