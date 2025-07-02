@@ -44,8 +44,20 @@ export default function Home() {
             className="max-w-3xl w-4/5 sm:w-4/5 w-full h-auto block mx-auto"
           />
         </div>
-        {/* sample5.mp4 아래 검정색 여백 */}
-        <div className="bg-black w-full py-6"></div>
+        {/* 포트폴리오 버튼 */}
+        <div className="bg-black w-full py-6 flex justify-center">
+          <a
+            href="https://drive.google.com/drive/folders/1fSuxQGuqg6w5o_5NQtTkmOsMDnk65lrk?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#a084f7] hover:bg-[#8b6ff0] text-white font-semibold rounded-lg px-6 py-3 text-sm shadow-lg transition-all duration-300 hover:scale-105 inline-flex items-center gap-2"
+          >
+            포트폴리오 보러가기
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+        </div>
         {/* 사진고 섹션 타이틀 */}
         <div className="w-full flex justify-center bg-black pt-10">
           <h2 className="text-xs sm:text-2xl font-bold text-center text-white">VIEWIT에서 제공하는 가치</h2>
