@@ -37,6 +37,7 @@ export default function RootLayout({
     <html lang="ko">
       <head>
         <link rel="icon" type="image/png" href="/icon.png" />
+        <meta name="google-site-verification" content="E9r0acTDiaXKyoAHBBA2U6YHlFv3l60jPDABvjH4wS4" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
