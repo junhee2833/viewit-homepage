@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "VIEWIT",
     images: [
       {
-        url: "/preview.png",
+        url: "https://viewitcorp.netlify.app/preview.png",
         width: 1200,
         height: 630,
         alt: "VIEWIT 미리보기 이미지",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VIEWIT - 외국인 숏폼 리뷰 체험단",
     description: "외국인 리뷰가 필요할 땐, VIEWIT.",
-    images: ["/preview.png"],
+    images: ["https://viewitcorp.netlify.app/preview.png"],
   },
   alternates: {
     canonical: "https://viewitcorp.netlify.app/",
