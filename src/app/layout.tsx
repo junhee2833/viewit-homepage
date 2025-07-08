@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   creator: "VIEWIT",
   publisher: "VIEWIT",
   robots: "index, follow",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: "VIEWIT - 외국인 숏폼 리뷰 체험단",
     description: "외국인 리뷰가 필요할 땐, VIEWIT.",
@@ -57,6 +62,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="/icon.png" />
         <meta name="google-site-verification" content="E9r0acTDiaXKyoAHBBA2U6YHlFv3l60jPDABvjH4wS4" />
+        <meta name="naver-site-verification" content="c7125725c403cc11c3cc0d6575ae094eeed83143" />
         <meta property="og:image" content="https://viewitcorp.netlify.app/preview.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
