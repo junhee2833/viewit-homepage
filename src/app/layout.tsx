@@ -14,17 +14,36 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "VIEWIT - 외국인 숏폼 리뷰 체험단",
-  description: "외국인 리뷰가 필요할 땐, VIEWIT ",
-  keywords: "VIEWIT, 뷰잇, 해외마케팅, 틱톡마케팅, 외국인리뷰, 리뷰 영상, UGC, 영상 제작",
+  description: "외국인 리뷰가 필요할 땐, VIEWIT.",
+  keywords: ["VIEWIT", "뷰잇", "해외마케팅", "틱톡마케팅", "외국인리뷰", "리뷰 영상", "UGC", "영상 제작"],
   authors: [{ name: "VIEWIT" }],
   creator: "VIEWIT",
   publisher: "VIEWIT",
   robots: "index, follow",
   openGraph: {
     title: "VIEWIT - 외국인 숏폼 리뷰 체험단",
-    description: "외국인 리뷰가 필요할 땐, VIEWIT",
+    description: "외국인 리뷰가 필요할 땐, VIEWIT.",
     type: "website",
     locale: "ko_KR",
+    url: "https://viewitcorp.netlify.app/",
+    siteName: "VIEWIT",
+    images: [
+      {
+        url: "/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "VIEWIT 미리보기 이미지",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VIEWIT - 외국인 숏폼 리뷰 체험단",
+    description: "외국인 리뷰가 필요할 땐, VIEWIT.",
+    images: ["/preview.png"],
+  },
+  alternates: {
+    canonical: "https://viewitcorp.netlify.app/",
   },
 };
 
