@@ -66,7 +66,7 @@ export default function Home() {
         <section className="w-full flex flex-col sm:flex-row items-center justify-center gap-8 bg-black text-white py-6 px-6 sm:px-16">
           {/* 왼쪽 그래프(빈 이미지) */}
           <div className="flex-1 flex items-center justify-center min-h-[220px] sm:py-6 py-0 overflow-hidden h-[200px] sm:h-[390px]">
-            <img src="/graph.png" alt="그래프 자리" className="w-full max-w-2xl h-full object-contain rounded scale-125 sm:scale-100" />
+            <img src="/graph2.png" alt="그래프 자리" className="w-full max-w-2xl h-full object-contain rounded scale-125 sm:scale-100" />
           </div>
           {/* 오른쪽 텍스트 박스 */}
           <div className="flex-1 flex flex-col gap-4 max-w-xl items-start sm:-translate-x-16">
